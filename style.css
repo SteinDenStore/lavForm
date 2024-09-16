@@ -6,18 +6,19 @@
 
 body {
   font-family: "Nunito", sans-serif;
-  color: #384047;
+  color: #e8eeef;
 }
 
 form {
   max-width: 300px;
   margin: 10px auto;
   padding: 10px 20px;
-  background: #f4f7f8;
+  background: #e682a9;
   border-radius: 8px;
 }
 
 h1 {
+  padding-top: 2rem;
   margin: 0 0 30px 0;
   text-align: center;
 }
@@ -38,12 +39,12 @@ input[type="email"] {
 button {
   padding: 19px 39px 18px 39px;
   color: #fff;
-  background-color: #4bc970;
+  background-color: #ea5045;
   font-size: 18px;
   text-align: center;
   border-radius: 5px;
   width: 100%;
-  border: 1px solid #3ac162;
+  border: 1px solid #ea5045;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
   margin-bottom: 10px;
 }
@@ -64,7 +65,7 @@ label {
 }
 
 .number {
-  background-color: #5fcf80;
+  background-color: #ea5045;
   color: #fff;
   height: 30px;
   width: 30px;
