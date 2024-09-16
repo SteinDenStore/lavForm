@@ -1,39 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
   </head>
   <body>
-    <div class="bodycontrole">
-      <div class="form_controle">
-        <form name="kontakt" netlify>
-          <h2 id="link">Lav en form</h2>
-          <!-- Email field -->
-          <div class="form-felt">
-            <label for="email">E-mail eller Brugernavn</label>
-            <input
-              placeholder="fx. peter@mail.dk"
-              id="email"
-              name="email"
-              type="email"
-              required
-            />
-          </div>
-          <!-- Email field -->
-          <div class="form-felt">
-            <label for="email">Adgangskode</label>
-            <input
-              placeholder="fx. peter@mail.dk"
-              id="email"
-              name="email"
-              type="email"
-              required
-            />
-          <!-- Submit button -->
-          <button type="submit">Log in</button>
+    <div class="row">
+      <div class="col-md-12">
+        <form action="index.html" method="post">
+          <h1>Sign Up</h1>
+
+          <fieldset>
+            <legend><span class="number">1</span> Your Basic Info</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="user_email" />
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="user_password" />
+          </fieldset>
+
+          <button type="submit">Sign Up</button>
         </form>
       </div>
     </div>
