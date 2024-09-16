@@ -1,0 +1,164 @@
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+hr {
+  color: white;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: white;
+  padding-left: 1em;
+}
+
+main {
+  margin-top: 5em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#oelsmagning_titel {
+  font-size: 30px;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  justify-content: center;
+}
+.grid_1_1 img {
+  width: 100%;
+}
+
+.grid_1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-bottom: 4em;
+}
+
+.grid_1 img {
+  margin-top: auto;
+}
+
+.form_controle {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-right: 3.5rem;
+  background-color: #e682a9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-felt {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.25rem 0 1rem 0;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #000000;
+  outline: none;
+}
+
+#link {
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #1c7d19;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #50f15e;
+}
+
+.bodycontrole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+@media only screen and (max-width: 767px) {
+  main {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_1_1 img {
+    margin-top: 0;
+  }
+
+  #taarn {
+    display: none;
+  }
+}
